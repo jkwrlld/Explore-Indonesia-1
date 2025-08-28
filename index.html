@@ -8,6 +8,12 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
 
     <link
       rel="stylesheet"
@@ -20,6 +26,7 @@
   </head>
   <body>
     <header>
+      <div class="container">
       <a class="header-logo" href="">
         <svg class="header-logo-svg">
           <use href="./assets/symbol-defs.svg#icon-flower"></use>
@@ -42,13 +49,17 @@
           </button>
         </li>
       </ul>
+      </div>
     </header>
     <main>
       <section id="hero-start" class="hero-start">
+        <div class="container">
         <h1 class="hero-start-title">Explore Indonesia</h1>
         <button class="hero-start-button">Start travelling</button>
+        </div>
       </section>
       <section class="hero-information">
+        <div class="container">
         <ul class="hero-list">
           <li class="hero-list-li">
             <a class="hero-number">01</a>
@@ -69,8 +80,10 @@
             <img class="hero-img-video" src="./assets/img/Video.png" alt="" />
           </li>
         </ul>
+        </div>
       </section>
       <section class="articles">
+        <div class="container">
         <ul class="articles-list">
           <li class="articles-list-li">
             <img
@@ -78,14 +91,14 @@
               src="./assets/img/Rectangle9.png"
               alt=""
             />
-            <h2 class="articles-title-1">
+            <h2 class="articles-title">
               The walkways of Indonesia spellbind
             </h2>
-            <p class="articles-text-1">
+            <p class="articles-text">
               Lorem ipsum dolor sit amet, conse ctetur adip iscing elit. Fusce
               commodo magna et libero mollis rhoncus.
             </p>
-            <button class="articles-button-1">Learn More</button>
+            <button class="articles-button">Learn More</button>
           </li>
           <li class="articles-list-li">
             <img
@@ -93,114 +106,248 @@
               src="./assets/img/Rectangle10.png"
               alt=""
             />
-            <h2 class="articles-title-2">
+            <h2 class="articles-title">
               Perfect beaches exude relaxation and fun
             </h2>
-            <p class="articles-text-2">
+            <p class="articles-text">
               Lorem ipsum dolor sit amet, conse ctetur adip iscing elit. Fusce
               commodo magna et libero mollis rhoncus.
             </p>
-            <button class="articles-button-2">Learn More</button>
+            <button class="articles-button">Learn More</button>
           </li>
         </ul>
+        </div>
       </section>
       <section class="explore">
+        <div class="container">
         <h2 class="explore-title">Explore Our Secrets</h2>
-        <ul class="explore-list">
-          <li class="explore-list-li">
-            <svg class="explore-svg-left">
-              <use href="./assets/symbol-defs.svg#icon-Union-l"></use>
-            </svg>
-          </li>
-          <li class="explore-list-li">
-            <img
-              class="explore-img-beach"
-              src="./assets/img/Rectangle1259.png"
-              alt=""
-            />
-          </li>
-          <li class="explore-list-li">
-            <svg class="explore-svg-right">
-              <use href="./assets/symbol-defs.svg#icon-Union-r"></use>
-            </svg>
-          </li>
-        </ul>
-        <img src="./assets/img/Group6.png" alt="" />
+        <div
+            id="myCarousel"
+            class="carousel slide mb-6"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#myCarousel"
+                data-bs-slide-to="0"
+                class=""
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#myCarousel"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+                class="active"
+                aria-current="true"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#myCarousel"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+                class=""
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item">
+                <svg
+                  aria-hidden="true"
+                  class="bd-placeholder-img"
+                  height="100%"
+                  preserveAspectRatio="xMidYMid slice"
+                  width="100%"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    width="100%"
+                    height="100%"
+                    fill="var(--bs-secondary-color)"
+                  ></rect>
+                </svg>
+                <div class="container">
+                  <div class="carousel-caption text-start">
+                    <h1>Example headline.</h1>
+                    <p class="opacity-75">
+                      Some representative placeholder content for the first
+                      slide of the carousel.
+                    </p>
+                    <p>
+                      <a class="btn btn-lg btn-primary" href="#"
+                        >Sign up today</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item active">
+                <svg
+                  aria-hidden="true"
+                  class="bd-placeholder-img"
+                  height="100%"
+                  preserveAspectRatio="xMidYMid slice"
+                  width="100%"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    width="100%"
+                    height="100%"
+                    fill="var(--bs-secondary-color)"
+                  ></rect>
+                </svg>
+                <div class="container">
+                  <!-- <div class="carousel-caption">
+                    <h1>Another example headline.</h1>
+                    <p>
+                      Some representative placeholder content for the second
+                      slide of the carousel.
+                    </p>
+                    <p>
+                      <a class="btn btn-lg btn-primary" href="#">Learn more</a>
+                    </p>
+                  </div> -->
+                </div>
+              </div>
+              <div class="carousel-item">
+                <svg
+                  aria-hidden="true"
+                  class="bd-placeholder-img"
+                  height="100%"
+                  preserveAspectRatio="xMidYMid slice"
+                  width="100%"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    width="100%"
+                    height="100%"
+                    fill="var(--bs-secondary-color)"
+                  ></rect>
+                </svg>
+                <div class="container">
+                  <div class="carousel-caption text-end">
+                    <h1>One more for good measure.</h1>
+                    <p>
+                      Some representative placeholder content for the third
+                      slide of this carousel.
+                    </p>
+                    <p>
+                      <a class="btn btn-lg btn-primary" href="#"
+                        >Browse gallery</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#myCarousel"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#myCarousel"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        </div>
       </section>
-      <section>
-        <h2>By The Numbers</h2>
-        <p>
+      <section class="numbers">
+        <div class="container">
+        <h2 class="numbers-title">By The Numbers</h2>
+        <p class="numbers-text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo
           magna et libero.Lorem ipsum dolor sit amet, consectetur adipiscing
           elit.
         </p>
-        <ul>
-          <li>
-            <h2>100+</h2>
-            <p>
+        <ul class="numbers-list">
+          <li class="numbers-list-li">
+            <h2 class="numbers-numeric">100+</h2>
+            <p class="numbers-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
               commodo magna et libero.
             </p>
           </li>
-          <li>
-            <h2>43,000+</h2>
-            <p>
+          <li  class="numbers-list-li">
+            <h2 class="numbers-numeric">43,000+</h2>
+            <p class="numbers-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
               commodo.
             </p>
           </li>
-          <li>
-            <h2>30+</h2>
-            <p>
+          <li  class="numbers-list-li">
+            <h2 class="numbers-numeric">30+</h2>
+            <p class="numbers-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
               commodo magna et libero.
             </p>
           </li>
         </ul>
+        </div>
       </section>
-      <section>
-        <h2>Our hills and valleys are like nothing you’ve seen.</h2>
-
-        <p>
+      <section class="map">
+        <div class="container">
+        <h2 class="map-title">Our hills and valleys are like nothing you’ve seen.</h2>
+        <p class="map-text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit
           amet magna commodo, tempus dolor sit amet, laoreet elit. Donec mauris
           tortor, elementum sed.
         </p>
-
-        <button>Learn More</button>
+        <button class="map-button">Learn More</button>
+        </div>
       </section>
-      <section>
-        <h2>
+      <section class="videos">
+        <div class="container">
+        <h2 class="videos-title">
           Live a life like you wouldn’t imagine, experience a life you wouldn’t
           expect.
         </h2>
-        <img src="./assets/img/VideoPlayer.png" alt="" />
-        <ul>
-          <li>
-            <img src="./assets/img/Preview1.png" alt="" />
-            <h3>In The Country</h3>
-            <p>
+        <img class="videos-img" src="./assets/img/VideoPlayer.png" alt="" />
+        <ul class="videos-list">
+          <li class="videos-list-li">
+            <img class="videos-list-img" src="./assets/img/Preview1.png" alt="" />
+            <h3 class="videos-list-mini-title">In The Country</h3>
+            <p class="videos-list-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
               dapibus mauris in lectus tempus.
             </p>
           </li>
-          <li>
-            <img src="./assets/img/Preview2.png" alt="" />
-            <h3>In The City</h3>
-            <p>
+          <li class="videos-list-li">
+            <img class="videos-list-img" src="./assets/img/Preview2.png" alt="" />
+            <h3 class="videos-list-mini-title">In The City</h3>
+            <p class="videos-list-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
               dapibus mauris in.
             </p>
           </li>
         </ul>
+        </div>
       </section>
-      <section>
-        <h2>Photo Gallery</h2>
-        <p>
+      <section class="gallery">
+        <div class="container">
+        <h2 class="gallery-title">Photo Gallery</h2>
+        <p class="gallery-text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
           dapibus mauris in lectus tempus, eget tincidunt.
         </p>
-        <div>
+        <div class="gallery-photos">
           <img src="./assets/img/ramphoto1.png" alt="" />
           <img src="./assets/img/ramphoto2.png" alt="" />
           <img src="./assets/img/ramphoto3.png" alt="" />
@@ -208,37 +355,41 @@
           <img src="./assets/img/ramphoto5.png" alt="" />
           <img src="./assets/img/ramphoto6.png" alt="" />
         </div>
+        </div>
       </section>
-      <section>
-        <h2>Getting there</h2>
-        <ul>
-          <li>
-            <div class="circle">1</div>
-            <h3>Bookings your flights</h3>
-            <p>Lorem ipsum dolor set...</p>
-            <a href="">Show more</a>
+      <section class="getting">
+        <div class="container">
+        <h2 class="getting-title">Getting there</h2>
+        <ul class="getting-list">
+          <li class="getting-list-li">
+            <div class="getting-circle">1</div>
+            <h3 class="getting-list-mini-title">Bookings your flights</h3>
+            <p class="getting-list-text">Lorem ipsum dolor set...</p>
+            <a class="getting-list-link" href="">Show more</a>
           </li>
-          <li>
+          <li class="getting-list-li">
             <div class="circle">2</div>
-            <h3>Choosing your hotel</h3>
-            <p>Lorem ipsum dolor set...</p>
-            <a href="">Show more</a>
+            <h3 class="getting-list-mini-title">Choosing your hotel</h3>
+            <p class="getting-list-text">Lorem ipsum dolor set...</p>
+            <a class="getting-list-link" href="">Show more</a>
           </li>
-          <li>
-            <img src="./assets/img/Group11.png" alt="" />
-            <p>Lorem ipsum dolor set...</p>
-            <a href="#">Show more</a>
+          <li class="getting-list-li">
+            <img class="getting-list-img" src="./assets/img/Group11.png" alt="" />
+            <p class="getting-list-text">Lorem ipsum dolor set...</p>
+            <a class="getting-list-link" href="#">Show more</a>
           </li>
-          <li>
+          <li class="getting-list-li">
             <div class="circle">3</div>
-            <h3>Planning your experiences</h3>
-            <p>Lorem ipsum dolor set...</p>
-            <a href="">Show more</a>
+            <h3 class="getting-list-mini-title">Planning your experiences</h3>
+            <p class="getting-list-text">Lorem ipsum dolor set...</p>
+            <a class="getting-list-link" href="">Show more</a>
           </li>
         </ul>
+        </div>
       </section>
     </main>
     <footer>
+      <div class="container">
       <a href="#hero-start"></a>
       <svg><use href=""></use></svg>
       <h3>Explore Indonesia</h3>
@@ -264,6 +415,7 @@
           <p>Copyright © 2019</p>
         </li>
       </ul>
+      </div>
     </footer>
     <script
       src="https://kit.fontawesome.com/e82c74228c.js"

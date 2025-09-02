@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   box-sizing: border-box;
   margin: 0;
@@ -11,7 +12,7 @@ a {
 }
 
 .container {
-  width: 314px;
+  width: 374px;
   margin: 0 auto;
   padding-left: 30px;
   padding-right: 30px;
@@ -24,7 +25,7 @@ a {
 .header-list-button {
   border: 0;
   outline: none;
-  background-color: #ffffff;
+  background-color: transparent;
 }
 
 .list-icon-frame {
@@ -67,4 +68,164 @@ a {
 
 header {
   padding-top: 58px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.hero-start-title {
+  /* Explore Indonesia */
+  width: 314px;
+  left: 30px;
+  top: 153px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 58.1515px;
+  line-height: 63px;
+  /* or 108% */
+  text-transform: uppercase;
+  color: black;
+}
+
+.hero-start-button {
+  width: 315px;
+  height: 59px;
+  /* Автолейаут */
+  padding: 10.2px;
+  border-radius: 107.63px;
+  background: rgb(221, 34, 66);
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero-list {
+  box-sizing: border-box;
+  background: rgb(0, 0, 0);
+  opacity: 0.8;
+  padding-left: 32px;
+  padding-right: 72px;
+  padding-bottom: 30px;
+  padding-top: 37px;
+  color: #ffffff;
+}
+
+.hero-list-li:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.hero-number {
+  color: rgb(221, 34, 66);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 23px;
+}
+
+.hero-title {
+  color: rgb(255, 255, 255);
+  font-family: DM Sans;
+  font-size: 26.41px;
+  font-weight: 700;
+  line-height: 41.08px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.hero-text {
+  color: rgb(147, 147, 147);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+
+.hero-start {
+  background-color: green;
+  background-size: cover;
+  background-image: url(../../assets/img/herobackground.jpg);
+  padding-top: 153px;
+}
+
+.hero-img-video {
+  width: 314px;
+  height: 191px;
+}
+
+.articles {
+  padding-top: 40px;
+  padding-bottom: 87px;
+  background-color: #010a20;
+}
+
+.articles-img {
+  width: 314px;
+  height: 232px;
+  margin-bottom: 33px;
+}
+
+.articles-list {
+  padding: 0;
+}
+
+.articles-title {
+  /* Mobile H1 */
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  margin-bottom: 48px;
+  /* or 115% */
+  color: #ffffff;
+}
+
+.articles-text {
+  /* Mobile Paragraph 1 */
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  letter-spacing: 0.5px;
+  /* Text Lighten */
+  color: #e0e0e0;
+}
+
+.articles-button {
+  margin-top: 37px;
+  width: 314px;
+  height: 72px;
+  padding: 16px 24px;
+  gap: 24px;
+  background: #dd2242;
+  border-radius: 32px;
+  /* Learn More */
+  /* CTA */
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  /* identical to box height, or 27px */
+  text-align: center;
+  /* Neutral / White */
+  color: #ffffff;
+}
+
+.articles-list-li:not(:last-child) {
+  margin-bottom: 56px;
 }

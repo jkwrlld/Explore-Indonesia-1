@@ -1,0 +1,102 @@
+footer {
+  background-color: #010a20;
+  padding-top: 146px;
+  padding-bottom: 83px;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 23.9606px;
+  line-height: 90.5%;
+  /* or 17px */
+  letter-spacing: 0.274228px;
+  text-transform: uppercase;
+  width: 128px;
+  margin: 0;
+}
+
+.footer-logo-svg {
+  height: 42px;
+  width: 42px;
+}
+
+.footer-logo-svg {
+  fill: #ffffff;
+}
+
+.explore-span {
+  color: #dd2242;
+}
+
+.indonesia-span {
+  color: #ffffff;
+}
+
+.footer-nav-list-li {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22.9432px;
+  line-height: 36px;
+  /* identical to box height, or 156% */
+  letter-spacing: 0.637311px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.footer-nav-list-li {
+  margin-top: 36px;
+}
+
+.footer-nav-link {
+  color: #ffffff;
+}
+
+.footer-nav-list {
+  text-align: center;
+  padding: 0;
+}
+
+.footer-list-svg {
+  width: 31px;
+  height: 31px;
+  fill: white;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-top: 36px;
+}
+
+.footer-list-li:not(:last-child) {
+  margin-right: 48px;
+}
+
+.footer-list-text {
+  margin-top: 36px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23.2405px;
+  line-height: 36px;
+  /* identical to box height, or 156% */
+  letter-spacing: 0.64557px;
+
+  /* Main / White */
+  color: #ffffff;
+  justify-content: center;
+  text-align: center;
+}

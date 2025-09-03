@@ -1,0 +1,63 @@
+.map {
+  background-image: url("../../assets/img/maskgroup1.png"),
+    url("../../assets/img/maskgroup2.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: top center, bottom center;
+  background-size: contain, contain;
+
+  padding-top: 240px;
+  padding-bottom: 116px;
+}
+
+.map-title {
+  /* Mobile H1 */
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  /* or 115% */
+  text-align: center;
+
+  color: #000000;
+}
+
+.map-text {
+  /* Mobile Paragraph 1 */
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: center;
+  letter-spacing: 0.5px;
+
+  /* Paragraph Dark */
+  color: #6f7787;
+}
+
+.map-button {
+  margin-top: 37px;
+  width: 314px;
+  height: 72px;
+  padding: 16px 24px;
+  gap: 24px;
+
+  background: #dd2242;
+  border-radius: 32px;
+
+  /* Learn More */
+
+  /* CTA */
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  /* identical to box height, or 27px */
+  text-align: center;
+
+  /* Neutral / White */
+  color: #ffffff;
+}

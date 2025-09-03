@@ -1,0 +1,53 @@
+.numbers {
+  padding-top: 72px;
+  padding-bottom: 69px;
+  background-color: #010a20;
+}
+
+.numbers-title {
+  /* Mobile H1 */
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  /* or 115% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+  padding-left: 75px;
+}
+
+.numbers-text {
+  /* Mobile Paragraph 1 */
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: center;
+  letter-spacing: 0.5px;
+
+  /* Text Lighten */
+  color: #e0e0e0;
+}
+
+.numbers-numeric {
+  /* Mobile H1 */
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  /* or 115% */
+  text-align: center;
+
+  color: #dd2242;
+}
+
+.numbers-list {
+  padding: 0;
+}

@@ -11,6 +11,8 @@
 .list-icon-frame {
   width: 24px;
   height: 24px;
+  fill: white;
+  margin-right: 29px;
 }
 
 .header-logo {
@@ -21,6 +23,7 @@
 .list-icon-menu {
   width: 24px;
   height: 24px;
+  fill: white;
 }
 
 .header-title {
@@ -34,6 +37,7 @@
   text-transform: uppercase;
   width: 111px;
   margin: 0;
+  color: white;
 }
 
 .header-logo-svg {
@@ -51,4 +55,8 @@ header {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.header-logo-svg {
+  fill: white;
 }

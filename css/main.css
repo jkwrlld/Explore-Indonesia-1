@@ -163,8 +163,14 @@ header {
 .hero-start {
   background-color: green;
   background-size: cover;
-  background-image: url(../../assets/img/herobackground.jpg);
+  background-repeat: no-repeat;
+  background-image: url(../../assets/img/heroback1xphn.webp);
   padding-top: 153px;
+}
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero-start {
+    background-image: url("./../../assets/img/heroback2xphn.webp");
+  }
 }
 
 .hero-img-video {
@@ -239,9 +245,16 @@ header {
 }
 
 .secrets {
-  background-image: url("../../assets/img/secretsbackground.jpg");
+  background-image: url("../../assets/img/secretback1xphn.webp");
   padding-top: 35px;
-  padding-bottom: 696px;
+  padding-bottom: 780px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .secrets {
+    background-image: url("./../../assets/img/secretback2xphn.webp");
+  }
 }
 
 .secrets-title {
@@ -341,12 +354,17 @@ header {
 }
 
 .map {
-  background-image: url("../../assets/img/maskgroup1.png"), url("../../assets/img/maskgroup2.png");
+  background-image: url("../../assets/img/maskgroup1.webp"), url("../../assets/img/maskgroup2.webp");
   background-repeat: no-repeat, no-repeat;
   background-position: top center, bottom center;
   background-size: contain, contain;
   padding-top: 240px;
   padding-bottom: 116px;
+}
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .map {
+    background-image: url("./../../assets/img/mgroupf2x.webp"), url(../../assets/img/mgroups2x.webp);
+  }
 }
 
 .map-title {
@@ -397,10 +415,15 @@ header {
 }
 
 .videos {
-  background-image: url("../../assets/img/videosbackground.png");
+  background-image: url("../../assets/img/videosback1xphn.webp");
   padding-top: 83px;
   padding-bottom: 20px;
   background-color: #010a20;
+}
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .videos {
+    background-image: url("./../../assets/img/videosback2xphn.webp");
+  }
 }
 
 .videos-list {
@@ -421,6 +444,7 @@ header {
 }
 
 .videos-list-mini-title {
+  margin-top: 40px;
   /* Mobile H2 */
   font-family: "DM Sans";
   font-style: normal;
@@ -434,6 +458,7 @@ header {
 }
 
 .videos-list-text {
+  margin-bottom: 40px;
   /* Mobile Paragraph 1 */
   font-family: "DM Sans";
   font-style: normal;
@@ -472,6 +497,7 @@ header {
   /* Blue - Background */
   color: #010a20;
   padding-left: 38px;
+  margin-bottom: 20px;
 }
 
 .gallery-text {
@@ -486,6 +512,7 @@ header {
   letter-spacing: 0.5px;
   /* Paragraph Dark */
   color: #6f7787;
+  margin-bottom: 37px;
 }
 
 .gallery-list {
@@ -527,6 +554,7 @@ header {
 }
 
 .getting-circle {
+  margin-top: 32px;
   width: 56px;
   height: 56px;
   background-color: #dd2242;
@@ -609,6 +637,11 @@ header {
   width: 38px;
   height: 21px;
   fill: white;
+}
+
+.ppp {
+  margin-top: 32px;
+  margin-bottom: 40px;
 }
 
 footer {

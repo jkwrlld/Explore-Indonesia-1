@@ -1,10 +1,15 @@
 .map {
-  background-image: url("../../assets/img/maskgroup1.png"),
-    url("../../assets/img/maskgroup2.png");
+  background-image: url("../../assets/img/maskgroup1.webp"),
+    url("../../assets/img/maskgroup2.webp");
   background-repeat: no-repeat, no-repeat;
   background-position: top center, bottom center;
   background-size: contain, contain;
-
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url("./../../assets/img/mgroupf2x.webp"),
+      url(../../assets/img/mgroups2x.webp);
+  }
   padding-top: 240px;
   padding-bottom: 116px;
 }

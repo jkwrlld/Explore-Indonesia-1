@@ -77,8 +77,14 @@
 .hero-start {
   background-color: green;
   background-size: cover;
-  background-image: url(../../assets/img/herobackground.jpg);
+  background-repeat: no-repeat;
+  background-image: url(../../assets/img/heroback1xphn.webp);
   padding-top: 153px;
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url("./../../assets/img/heroback2xphn.webp");
+  }
 }
 
 .hero-img-video {

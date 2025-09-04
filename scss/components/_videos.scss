@@ -1,8 +1,13 @@
 .videos {
-  background-image: url("../../assets/img/videosbackground.png");
+  background-image: url("../../assets/img/videosback1xphn.webp");
   padding-top: 83px;
   padding-bottom: 20px;
   background-color: #010a20;
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url("./../../assets/img/videosback2xphn.webp");
+  }
 }
 
 .videos-list {
@@ -24,6 +29,7 @@
 }
 
 .videos-list-mini-title {
+  margin-top: 40px;
   /* Mobile H2 */
   font-family: "DM Sans";
   font-style: normal;
@@ -38,6 +44,7 @@
 }
 
 .videos-list-text {
+  margin-bottom: 40px;
   /* Mobile Paragraph 1 */
   font-family: "DM Sans";
   font-style: normal;

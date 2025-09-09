@@ -110,6 +110,7 @@ header {
   letter-spacing: 0%;
   text-align: center;
   color: #ffffff;
+  margin-bottom: 54px;
 }
 
 .hero-list {
@@ -178,6 +179,11 @@ header {
   height: 191px;
 }
 
+.mmm {
+  margin-top: 1px;
+  padding-bottom: 40px;
+}
+
 .articles {
   padding-top: 40px;
   padding-bottom: 87px;
@@ -204,6 +210,7 @@ header {
   margin-bottom: 48px;
   /* or 115% */
   color: #ffffff;
+  margin-top: 35px;
 }
 
 .articles-text {
@@ -270,6 +277,7 @@ header {
   line-height: 46px;
   letter-spacing: 0%;
   text-align: center;
+  margin-bottom: 33px;
 }
 
 .secrets-svg {
@@ -321,6 +329,8 @@ header {
   text-align: center;
   color: #ffffff;
   padding-left: 75px;
+  padding-top: 15px;
+  margin-bottom: 22px;
 }
 
 .numbers-text {
@@ -347,6 +357,7 @@ header {
   /* or 115% */
   text-align: center;
   color: #dd2242;
+  margin-top: 50px;
 }
 
 .numbers-list {
@@ -377,6 +388,7 @@ header {
   /* or 115% */
   text-align: center;
   color: #000000;
+  margin-bottom: 36px;
 }
 
 .map-text {
@@ -441,6 +453,7 @@ header {
   text-align: center;
   /* Colors / White */
   color: #ffffff;
+  margin-bottom: 110px;
 }
 
 .videos-list-mini-title {
@@ -538,7 +551,7 @@ header {
 .getting {
   background-color: #dce8f2;
   padding-top: 69px;
-  padding-bottom: 73px;
+  padding-bottom: 32px;
 }
 
 .getting-title {
@@ -568,6 +581,7 @@ header {
   position: relative;
   left: 50%;
   transform: translateX(-50%);
+  margin-bottom: 25px;
 }
 
 .getting-list {
@@ -629,7 +643,7 @@ header {
   position: relative;
   bottom: -125%;
   left: 50%;
-  transform: translate(-50%, 125%);
+  transform: translate(-50%, 85%);
   text-align: center;
 }
 

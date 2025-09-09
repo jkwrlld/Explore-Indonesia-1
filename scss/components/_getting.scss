@@ -1,7 +1,7 @@
 .getting {
   background-color: #dce8f2;
   padding-top: 69px;
-  padding-bottom: 73px;
+  padding-bottom: 32px;
 }
 
 .getting-title {
@@ -32,6 +32,7 @@
   position: relative;
   left: 50%;
   transform: translateX(-50%);
+  margin-bottom: 25px;
 }
 
 .getting-list {
@@ -96,7 +97,7 @@
   position: relative;
   bottom: -125%;
   left: 50%;
-  transform: translate(-50%, 125%);
+  transform: translate(-50%, 85%);
   text-align: center;
 }
 

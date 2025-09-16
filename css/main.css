@@ -216,6 +216,7 @@ header {
 }
 
 .articles-list {
+  justify-content: center;
   padding: 0;
 }
 
@@ -314,6 +315,7 @@ header {
   .articles-list-li {
     display: flex;
     align-items: center;
+    justify-content: center;
   }
 }
 
@@ -337,8 +339,12 @@ header {
 
 @media (min-width: 1200px) {
   .tyu {
-    padding-left: 160px;
+    width: 630px;
   }
+}
+
+.op {
+  width: 630px;
 }
 
 .secrets {
@@ -353,11 +359,16 @@ header {
     background-image: url("./../../assets/img/secretback2xphn.webp");
   }
 }
+@media screen and (min-width: 1200px) {
+  .secrets {
+    padding-top: 127px;
+    padding-bottom: 886px;
+    background-image: url("../../assets/img/unsplash.jpg");
+  }
+}
 
 .secrets-title {
   width: 314px;
-  height: 112px;
-  display: flex;
   flex-direction: row;
   align-items: center;
   color: rgb(1, 10, 32);
@@ -368,6 +379,20 @@ header {
   letter-spacing: 0%;
   text-align: center;
   margin-bottom: 33px;
+}
+@media screen and (min-width: 1200px) {
+  .secrets-title {
+    width: 615px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 150%;
+    margin: 0 auto;
+    /* Blue - Background */
+    color: #010a20;
+    margin-bottom: 45px;
+  }
 }
 
 .secrets-svg {
@@ -398,6 +423,34 @@ header {
   display: block;
   margin: 0 auto;
   margin-top: 16px;
+}
+
+@media screen and (min-width: 1300px) {
+  .pop {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1299px) {
+  .secrimg {
+    display: none;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .secrimg {
+    width: 405px;
+    height: 257px;
+    display: block;
+  }
+}
+.secrimg:not(:last-child) {
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 1300px) {
+  .secrets-list-li {
+    display: flex;
+  }
 }
 
 .numbers {

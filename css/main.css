@@ -17,6 +17,11 @@ a {
   padding-left: 30px;
   padding-right: 30px;
 }
+@media (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
 
 .header-list-icons {
   display: flex;
@@ -189,12 +194,25 @@ header {
   padding-top: 40px;
   padding-bottom: 87px;
   background-color: #010a20;
+  opacity: 0.9;
+}
+@media screen and (min-width: 1200px) {
+  .articles {
+    padding-top: 207px;
+    padding-bottom: 241px;
+  }
 }
 
 .articles-img {
   width: 314px;
   height: 232px;
   margin-bottom: 33px;
+}
+@media screen and (min-width: 1200px) {
+  .articles-img {
+    width: 630px;
+    height: 400px;
+  }
 }
 
 .articles-list {
@@ -213,6 +231,16 @@ header {
   color: #ffffff;
   margin-top: 35px;
 }
+@media screen and (min-width: 1200px) {
+  .articles-title {
+    width: 480px;
+    height: 120px;
+    font-style: normal;
+    font-size: 42px;
+    line-height: 50px;
+    margin-bottom: 30px;
+  }
+}
 
 .articles-text {
   /* Mobile Paragraph 1 */
@@ -225,6 +253,18 @@ header {
   letter-spacing: 0.5px;
   /* Text Lighten */
   color: #e0e0e0;
+}
+@media (min-width: 1200px) {
+  .articles-text {
+    width: 407.58px;
+    height: 83.96px;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #e0e0e0;
+    margin-bottom: 32px;
+  }
 }
 
 .articles-button {
@@ -247,9 +287,58 @@ header {
   /* Neutral / White */
   color: #ffffff;
 }
+@media (min-width: 1200px) {
+  .articles-button {
+    width: 180px;
+    height: 60px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #ffffff;
+  }
+}
 
 .articles-list-li:not(:last-child) {
   margin-bottom: 56px;
+}
+@media (min-width: 1200px) {
+  .articles-list-li:not(:last-child) {
+    margin-bottom: 192px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .articles-list-li {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .articles-li-last {
+    flex-direction: row-reverse;
+  }
+}
+
+@media (min-width: 1200px) {
+  .articles-div {
+    margin-left: 130px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .articles-div-last {
+    margin-right: 130px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .tyu {
+    padding-left: 160px;
+  }
 }
 
 .secrets {

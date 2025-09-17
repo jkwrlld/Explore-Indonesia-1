@@ -65,6 +65,12 @@ a {
   margin: 0;
   color: white;
 }
+@media screen and (min-width: 1200px) {
+  .header-title {
+    font-size: 120px;
+    line-height: 130px;
+  }
+}
 
 .header-logo-svg {
   height: 42px;
@@ -85,6 +91,42 @@ header {
 
 .header-logo-svg {
   fill: white;
+}
+
+.header-nav {
+  display: none;
+}
+@media (min-width: 1200px) {
+  .header-nav {
+    display: block;
+  }
+}
+
+.headnav-ul {
+  display: flex;
+  align-items: center;
+  margin-right: 200px;
+  padding: 0;
+}
+
+.headnav-li:not(:last-child) {
+  margin-right: 62px;
+}
+
+.headnav-a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.lip {
+  margin-left: 65px;
 }
 
 .hero-start-title {
@@ -458,6 +500,12 @@ header {
   padding-bottom: 69px;
   background-color: #010a20;
 }
+@media screen and (min-width: 1200px) {
+  .numbers {
+    padding-top: 201px;
+    padding-bottom: 224px;
+  }
+}
 
 .numbers-title {
   /* Mobile H1 */
@@ -475,6 +523,14 @@ header {
   padding-top: 15px;
   margin-bottom: 22px;
 }
+@media screen and (min-width: 1200px) {
+  .numbers-title {
+    font-size: 60px;
+    line-height: 150%;
+    justify-content: center;
+    padding: 0;
+  }
+}
 
 .numbers-text {
   /* Mobile Paragraph 1 */
@@ -488,6 +544,12 @@ header {
   letter-spacing: 0.5px;
   /* Text Lighten */
   color: #e0e0e0;
+}
+@media screen and (min-width: 1200px) {
+  .numbers-text {
+    font-size: 18px;
+    line-height: 28px;
+  }
 }
 
 .numbers-numeric {
@@ -505,6 +567,11 @@ header {
 
 .numbers-list {
   padding: 0;
+}
+@media screen and (min-width: 1200px) {
+  .numbers-list {
+    display: flex;
+  }
 }
 
 .map {

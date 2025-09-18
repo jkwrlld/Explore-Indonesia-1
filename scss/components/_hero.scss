@@ -14,7 +14,7 @@
   text-transform: uppercase;
 
   color: white;
-  
+
   @media (min-width: 1200px) {
     color: rgba(255, 255, 255, 1);
 
@@ -128,7 +128,7 @@
   line-height: 24px;
   letter-spacing: 0.5px;
   text-align: left;
-   @media (min-width: 1200px) {
+  @media (min-width: 1200px) {
     color: rgba(147, 147, 147, 1);
     /* Paragraph */
     width: 210.11px;
@@ -139,6 +139,7 @@
     line-height: 28px;
     letter-spacing: 0.5px;
     text-align: left;
+  }
 }
 
 .hero-start {
@@ -153,6 +154,8 @@
     background-image: url("./../../assets/img/heroback2xphn.webp");
   }
   @media screen and (min-width: 1200px) {
+    padding-top: 266px;
+    padding-bottom: 49px;
     background-image: url("../../assets/img/bacj.jpg");
   }
 }
@@ -160,18 +163,25 @@
 .hero-img-video {
   width: 314px;
   height: 191px;
-   @media (min-width: 1200px) {
-    width: 500px;
-  }
 }
 
 .mmm {
   margin-top: 1px;
   padding-bottom: 40px;
+  @media (min-width: 1200px) {
+    width: 417px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+  }
 }
 
 .hero-list-li:not(:last-child) {
   @media (min-width: 1200px) {
     margin-right: 198px;
   }
+}
+
+.position-img {
+  position: relative;
 }

@@ -1,4 +1,8 @@
 footer {
+  @media screen and (min-width: 1200px) {
+    padding-top: 58px;
+    padding-bottom: 50px;
+  }
   background-color: #010a20;
   padding-top: 146px;
   padding-bottom: 83px;
@@ -8,6 +12,11 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  @media screen and (min-width: 1200px) {
+    justify-content: left;
+    padding-left: 70px;
+    margin-right: 80px;
+  }
 }
 
 .footer-title {
@@ -60,15 +69,52 @@ footer {
 }
 
 .footer-nav-link {
+  /* Works */
+
+  width: 71.38px;
+  height: 35.69px;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22.9432px;
+  line-height: 36px;
+  /* identical to box height, or 156% */
+  letter-spacing: 0.637311px;
+
+  /* Main / White */
   color: #ffffff;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  @media screen and (min-width: 1200px) {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+
+    color: #ffffff;
+  }
 }
 
 .footer-nav-list {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
+  justify-content: center;
   text-align: center;
   padding: 0;
 }
 
 .footer-list-svg {
+  @media screen and (min-width: 1200px) {
+    width: 24px;
+    height: 24px;
+  }
   width: 31px;
   height: 31px;
   fill: white;
@@ -83,10 +129,17 @@ footer {
 
 .footer-list-li:not(:last-child) {
   margin-right: 48px;
+  @media screen and (min-width: 1200px) {
+    margin-right: 22px;
+  }
 }
 
 .footer-list-text {
+  @media screen and (min-width: 1200px) {
+    margin-left: 35px;
+  }
   margin-top: 36px;
+
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 700;
@@ -99,4 +152,17 @@ footer {
   color: #ffffff;
   justify-content: center;
   text-align: center;
+  display: flex;
+}
+
+.footer-flex {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
+}
+
+.footer-nav-link {
+  @media screen and (min-width: 1200px) {
+    margin-right: 36px;
+  }
 }

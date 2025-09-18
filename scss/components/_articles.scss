@@ -151,5 +151,7 @@
 }
 
 .op {
-  width: 630px;
+  @media screen and (min-width: 1200px) {
+    width: 630px;
+  }
 }

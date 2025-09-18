@@ -13,11 +13,11 @@
   padding-top: 240px;
   padding-bottom: 116px;
   @media screen and (min-width: 1200px) {
-    background-image: url("../../assets/img/maskgroup1.webp"),
-      url("../../assets/img/maskgroup2.webp");
+    background-image: url("../../assets/img/whan.jpg"),
+      url("../../assets/img/maskg.jpg");
     background-repeat: no-repeat, no-repeat;
     background-position: top left, bottom right;
-    background-size: contain, contain;
+    background-size: 500px 600px, 1100px 600px;
   }
 }
 
@@ -51,6 +51,8 @@
 }
 
 .map-button {
+  display: block;
+  margin: 0 auto;
   margin-top: 37px;
   width: 314px;
   height: 72px;

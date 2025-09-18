@@ -65,12 +65,6 @@ a {
   margin: 0;
   color: white;
 }
-@media screen and (min-width: 1200px) {
-  .header-title {
-    font-size: 120px;
-    line-height: 130px;
-  }
-}
 
 .header-logo-svg {
   height: 42px;
@@ -81,12 +75,23 @@ a {
   display: flex;
   align-items: center;
 }
+@media (min-width: 1200px) {
+  .flex {
+    justify-content: flex-start;
+  }
+}
 
 header {
   padding-top: 58px;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+}
+@media (min-width: 1200px) {
+  header {
+    transform: translateX(0);
+    left: 47px;
+  }
 }
 
 .header-logo-svg {
@@ -160,6 +165,21 @@ header {
   color: #ffffff;
   margin-bottom: 54px;
 }
+@media (min-width: 1200px) {
+  .hero-start-button {
+    /* CTA */
+    width: 271.14px;
+    height: 82px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 20px;
+    margin-bottom: 241px;
+  }
+}
 
 .hero-list {
   box-sizing: border-box;
@@ -170,6 +190,16 @@ header {
   padding-bottom: 30px;
   padding-top: 37px;
   color: #ffffff;
+}
+@media (min-width: 1200px) {
+  .hero-list {
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+    background: rgb(0, 0, 0);
+    opacity: 0.6;
+    padding-bottom: 0px;
+    display: flex;
+  }
 }
 
 .hero-list-li:not(:last-child) {
@@ -187,6 +217,18 @@ header {
   text-transform: uppercase;
   margin-bottom: 23px;
 }
+@media (min-width: 1200px) {
+  .hero-number {
+    color: rgb(221, 34, 66);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+  }
+}
 
 .hero-title {
   color: rgb(255, 255, 255);
@@ -197,6 +239,17 @@ header {
   letter-spacing: 0px;
   text-align: left;
   margin-bottom: 5px;
+}
+@media (min-width: 1200px) {
+  .hero-title {
+    color: rgb(255, 255, 255);
+    font-family: DM Sans;
+    font-size: 26.41px;
+    font-weight: 700;
+    line-height: 41.08px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
 }
 
 .hero-text {
@@ -219,6 +272,11 @@ header {
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero-start {
     background-image: url("./../../assets/img/heroback2xphn.webp");
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero-start {
+    background-image: url("../../assets/img/bacj.jpg");
   }
 }
 
